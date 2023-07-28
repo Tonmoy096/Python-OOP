@@ -9,8 +9,10 @@ class Student:
     def details(self): #instance method
         print("Name:",self.name,"ID:",self.id)
 
-s1=Student("Bob",11)
+s1=Student("Bob",11) #instance/object
 s2=Student("Tonmoy",12)
+s1.details()
+print(s1.name)
 s1.id=24
 s1.details()
 
