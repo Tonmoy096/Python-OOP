@@ -19,5 +19,5 @@ c1.view()
 c2.view()
 
 c1.compare(c2)
-
+c2.compare(c1)
         
