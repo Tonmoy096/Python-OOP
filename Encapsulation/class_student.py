@@ -16,6 +16,7 @@ class Student:
 s1 = Student("Bob", 1240144)
 s2 = Student("Lala", 7896)
 
+
 s1.update_id(10)
 
 s1.view()
